@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Express</title>
+</head>
+<body>
+    <h1>Hello world</h1>
+    <!-- embed js in our html -->
+    <!-- run js here "flounder"- scriplet -->
+    <% let stringExample = 'yolo' %>
+    <% console.log(stringExample) %>
+    <!-- run js to add data to template "squid"- injector tag -->
+    <p><%= stringExample %></p>
+    <p><%= message %></p>
+    <% for (let i=0; i < favNums.length; i++) { %>
+        <p>Number: <%= favNums[i] %></p>
+    <% } %>
+    
+
+</body>
+</html>
